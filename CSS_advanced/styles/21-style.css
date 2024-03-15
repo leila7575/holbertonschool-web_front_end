@@ -545,3 +545,14 @@ h1, h2, h3, h4, h5, h6 {
 .footer ul {
     text-align: right;
 }
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+[class^="col-"] {
+    float: left;
+    padding: calc(0.5 * var(--root-font-size));
+}
