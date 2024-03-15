@@ -615,7 +615,6 @@ h1, h2, h3, h4, h5, h6 {
     color: var(--color-white);
     background-color: var(--color-primary);
 }
-
 .card-testimonial {
     text-align: center;
 }
@@ -626,7 +625,7 @@ h1, h2, h3, h4, h5, h6 {
     height: 10rem;
 }
 
-.card-testimonial card-quote cite {
+.card-testimonial .card-quote cite {
     display: block;
     padding-top: 1rem;
     color: var(--color-primary);
